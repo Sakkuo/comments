@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://kit.fontawesome.com/072d4bc472.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="page__inner">
+    <main class="main">
+      <div class="comments">
+        <div class="comment__header">
+          <div class="comments__header-title">
+            <i class="fa-solid fa-comment" style="color: white; font-size: 22px; margin-right: 10px;"></i>
+            <span>Комментарии</span>
+          </div>
+          <div class="slash"></div>
+        </div>
+        <div class="comment__field">
+          <div class="comment__submit">
+            <form class="form">
+              <input type="text" class="submit__name input--text" placeholder="Имя" name="name" required/> 
+              <input type="date" class="submit__date input--text" name="date">/>
+              <input type="text" class="submit__comment input--text" placeholder="Комментарий" name="comment" required/> <br>
+              <input type="submit" class="submit__button" value="Отправить">
+            </form>
+          </div>
+          <ul class="comment-list">
+          </ul>
+        </div>
+      </div>
+
+    </main>
+
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>

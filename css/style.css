@@ -1,0 +1,112 @@
+html {
+  background-color: #232529;
+  box-sizing: content-box;
+}
+
+
+.page__inner {
+  padding: 0 120px;
+}
+
+.main {
+  max-width: 800px;
+  margin: auto;
+  padding: 35px 0 35px;
+}
+
+.comments__header-title span {
+  color:white;
+  font-size: 24px;
+  line-height: 32px;
+  font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 700;
+}
+
+.slash {
+  margin: 24px 0;
+  border-bottom: 2px solid #c2c6cc;
+}
+
+
+.input--text {
+  border: 2px solid #dbdfe4;
+  transition: all .2s linear;
+  padding: 5px 9px;
+  margin: 0;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+  max-width: 800px;
+  font-size: 13px;
+  height: 40px;
+  margin-bottom: 16px;
+}
+
+.submit__date, .submit__name {
+  width: 25%;
+}
+
+input {outline:none;}
+
+.submit__button {
+  background-color: var(--publisher-color-safe,#2e9fff);
+  border-radius: 14px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 1;
+  color: #fff;
+  padding: 7px 15px;
+  border: 1px solid #2e9fff;
+}
+
+ul {
+  padding: 0 0 0 15px;
+}
+
+
+li {
+  list-style-type: none;
+}
+
+.comment-item {
+  background-color: white;
+  margin-bottom: 20px;  
+  border-radius: 5px;
+  padding: 10px;
+  font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+
+.like-btn, .delete-btn {
+  border: none;
+  padding:  0;
+}
+
+.like-btn i, .delete-btn i {
+  font-size: 16px;
+  margin-top: 6px;
+}
+
+.like-btn i {
+  margin-right: 10px;
+}
+
+.liked {
+  color: red;
+}
+
+.comment-date {
+  font-size: 12px;
+}
+
+.comment-name {
+  font-size: 24px;
+  margin-bottom: 5px;
+  color: #2e9fff;
+}
+
+
+.comment-text {
+  font-size: 16px;
+  margin-bottom: 6px; 
+}
